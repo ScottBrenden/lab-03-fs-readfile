@@ -1,0 +1,28 @@
+{
+  "name": "lab-scott",
+  "version": "1.0.0",
+  "description": "lab3",
+  "main": "index.js",
+  "devDependencies": {
+    "mocha": "^3.2.0",
+    "eslint": "^3.19.0",
+    "chai": "^3.5.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha",
+    "lint": "eslint ./lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ScottBrenden/lab-03-fs-readfile.git"
+  },
+  "author": "scott",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ScottBrenden/lab-03-fs-readfile/issues"
+  },
+  "homepage": "https://github.com/ScottBrenden/lab-03-fs-readfile#readme"
+}
