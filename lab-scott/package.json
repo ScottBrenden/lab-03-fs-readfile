@@ -13,7 +13,8 @@
   },
   "scripts": {
     "test": "mocha",
-    "lint": "eslint ./lib"
+    "lint": "eslint ./lib",
+    "start": "node index.js && npm run test"
   },
   "repository": {
     "type": "git",
