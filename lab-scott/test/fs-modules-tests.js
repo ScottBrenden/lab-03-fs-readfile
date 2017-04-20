@@ -30,7 +30,7 @@ describe('fs module', function(){
         done();
       });
     });
-    it('should read three files and a hex buffer for each in order', done => {
+    it('should read three files in order and confirm they are in order', done => {
 
       for (let i = 0; i<3; i++){
 
